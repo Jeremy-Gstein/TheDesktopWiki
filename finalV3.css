@@ -92,7 +92,8 @@ body {
 
 #main-header {
 	background-image:url('Images/circutry.jpg');
-  background-image:url('../FinalV3/Images/circutry.jpg');
+  	background-image:url('../FinalV3/Images/circutry.jpg');
+	background-image:url('TheDesktopwiki/Images/circutry.jpg'); 
 	color: #fff;
 	width: 100%;
 	margin: auto;
