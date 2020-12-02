@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CPU / Processor</title>
+    <link rel="stylesheet" type="text/css" href="finalV3.css"/>
+  </head>
+    <body>
+    	<header id="main-header">
+    		<div>
+    			<h1>The Desktop Wiki</h1>
+    		</div>
+    	</header>
+
+      <nav id="navbar">
+    		<div class="container">
+    			<ul>
+    				<li><a href="home.html#"><button class="navButton">Home</button></a></li>
+    				<li><a href="#"><button class="navButton">About</button></a></li>
+    				<li><a href="#"><button class="navButton">Contact</button></a></li>
+    				<li><a href="#"><button class="navButton">Explore</button></a></li>
+    				<li>
+    					<div class="dropdown">
+    						<button class="dropbtn">Learn</button>
+    						<div class="dropdown-content">
+    							<a href="#">Cooling System</a>
+    							<a href="#">Processor</a>
+    							<a href="RamPage.html#">Ram</a>
+    							<a href="#">Graphics</a>
+    							<a href="#">Power</a>
+    							<a href="MBPage.html#">Motherboard</a>
+    							<a href="StoragePage.html#">Storage</a>
+    						</div>
+    					</div>
+    			</ul>
+    		</div>
+    	</nav>
+
+    	<div class="container">
+    		<Section id="main">
+            <body id = "cpuPage">
+              <div onmouseover="mOverCpu(this)" onmouseout="mOutCpu(this)"id = "CpuJS"> Central Processing Unit</div>
+                <script src="ProjectJavascript/Cpu.js"></script>
+              <h4 id = "CPU">The processor is the main component of any computing device. It’s located in the motherboard where it sits snug inside a socket(LGA,PGA,ZIG). They are made up of billions of microscopic transistors that ultimately act as the brain of the system. Each transistor represents an on/off switch. The CPU interprets ON/OFF as a language called binary which consists of 0’s and 1’s( 0 meaning off and 1 meaning on). Everything done on a computer (Including looking at this website!) Is interpreted as a 0 or a 1. Some commands need just a single 1 or 0 also known as a bit while others need terabytes (8,000,000,000,000 bits).</h4>
+              <h3 id = 'cpuPara'>The Processor socket is the connector on the motherboard that uses the CPU and forms the electrical interface connection and contact with the CPU for data interface and return. The CPU socket also locks the CPU in place. The CPU socket is made of plastic and often comes with a lever or latch, and with metal contacts for each of the pins on the CPU. The CPU socket is a large connector.</h3>
+              <div onmouseover="mOverAlu(this)" onmouseout="mOutAlu(this)"id = "AluJS"> Arithmetic Logic Unit</div>
+                <script src="ProjectJavascript/Alu.js"></script>
+              <h4 id = "ALUtxt">A digital circuit located in the CPU that is used to perform arithmetic and logic operation and is a fundamental building block of the CPU. Most operations of a CPU are performed by one or more of the ALU’s, which load data from input registers. Transistors are used to create logic gates and combinations of logic gates make it possible to perform arithmetic operations. The ALU receives information from the register and then performs operations on the information, the control bits encode information about what operation the ALU used to perform and the operations will either be arithmetic operations or bit wise logic operations.</h4>
+              <hr width = "100%">
+              <h2 id = "SocketTypes">Different CPU Socket Types</h2>
+              <div onmouseover="mOverLga(this)" onmouseout="mOutLga(this)"id = "LgaJS">The Land grid array Socket Type</div>
+                <script src="ProjectJavascript/Lga.js"></script>
+              <h4 id ="LGAtxt">A type of surface mount packaging that consists of a socket with pins or lands that you place the processor on. Most Intel CPU's use LGA socket type.</h4>
+              <div onmouseover="mOverPga(this)" onmouseout="mOutPga(this)"id = "PgaJS">The Pin Grid Array Socket Type</div>
+                <script src="ProjectJavascript/Pga.js"></script>
+              <h4 id = "PGAtxt">Consists of pins on the processor, which you then insert into the PGA socket with appropriately placed holes. AMD CPU's typically use PGA socket type.</h4>
+              <div onmouseover="mOverZif(this)" onmouseout="mOutZif(this)"id = "ZifJS">The Zero Insertion Force Socket</div>
+                <script src="ProjectJavascript/Zif.js"></script>
+              <h4 id = "ZIFtxt">A processor socket that has holes that match up with the pins of the CPU being connected to it. The ZIF socket has a lever that you would lift up and insert the CPU into this socket, then lower the arm back down to secure the CPU to the socket. The ZIF sockets lock the CPU down without force ensuring that you do not damage the CPU or socket.(usually used with PGA socket types)</h4>
+
+
+
+
+
+            </body>
+</html>
