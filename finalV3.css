@@ -92,8 +92,9 @@ body {
 
 #main-header {
 	background-image:url('Images/circutry.jpg');
-  	background-image:url('../FinalV3/Images/circutry.jpg');
-	background-image:url('https://Jeremy-Gstein.github.io/TheDesktopWiki/Images/circutry.jpg'); 
+  background-image:url('../FinalV5/Images/circutry.jpg');
+	background-image:url('https://jeremy-gstein.github.io/TheDesktopWiki/Images/circutry.jpg');
+
 	color: #fff;
 	width: 100%;
 	margin: auto;
@@ -127,10 +128,17 @@ body {
 	font-size: 25px;
 	padding-right: 15px;
 }
-
+/*This caps the margine at 55% which allows for the text
+**to stay on the left portion of the screen*/
 #main {
 	color: black;
 	width: 55%;
+}
+/*This removes the margin cap of 55% allowing for images to be placed
+**anywhere on the screen*/
+#noMargin{
+	color:black;
+	width: auto;
 }
 #HardDriveJS {
 	background-color: #838787;
